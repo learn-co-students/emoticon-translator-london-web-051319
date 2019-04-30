@@ -26,6 +26,7 @@ def get_japanese_emoticon(filepath, west_emoticon)
 	
 	jap_emoji ? jap_emoji : "Sorry, that emoticon was not found"
 	#if jap_emoji returns true, return jap_emoji. else...
+	
 end
 
 def get_english_meaning(filepath, jap_emoticon)
